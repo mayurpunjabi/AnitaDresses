@@ -1,0 +1,114 @@
+.header{
+    -fx-text-fill: white;
+    -fx-font-family: 'Century Gothic';
+    -fx-font-size: 28px;
+}
+
+.navbar{
+    -fx-background-color: #3F2B63;
+}
+
+.nav-button{
+    -fx-padding: 0px 0px 0px 30px;
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.nav-button:hover{
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+.active-nav-button{
+    -fx-padding: 0px 0px 0px 30px;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.white-icon{
+    -fx-fill: white;
+    -fx-font-size: 23px;
+    -fx-font-family: "FontAwesome";
+}
+
+.title-bar-button{
+    -fx-background-color: rgba(255, 255, 255, 0);
+    -fx-padding: 0;
+}
+
+.title-bar-button:hover{
+    -fx-text-fill: #ff6633;
+}
+
+/* Right Pane */
+
+.main-header{
+    -fx-background-color: #8800aa;
+    -fx-text-fill: white;
+    -fx-font-size: 45px;
+    -fx-font-weight: bold;
+    -fx-padding: 50px 0px 0px 30px;
+    -fx-font-family: 'Poor Richard';
+}
+
+.big-icon-button{
+    -fx-padding: 20px 0px 0px 0px;
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-size: 22px;
+    -fx-background-color: #ddd;
+    -fx-cursor: hand;
+}
+
+.big-icon-button:hover{
+    -fx-effect: dropshadow(three-pass-box, #6b6b6b, 10, 0.0, 2, 2);
+}
+
+.big-icon-button:focused{
+    -fx-effect: dropshadow(three-pass-box, #00f, 2, 0.6, 0, 0);
+}
+
+.searchBar{
+    -fx-padding: 8px 10px 8px 35px;
+}
+
+.icon-button{
+    -fx-font-size: 13px;
+    -fx-background-color: #70b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.message{
+    -fx-font-family: 'Berlin Sans FB';
+    -fx-font-size: 16px;
+}
+
+/* Dialog Box */
+
+.dialog-background{
+    -fx-background-color: #508;
+    -fx-background-radius: 20px 20px 20px 20px;
+}
+
+.input{
+    -fx-background-color: #508;
+    -fx-text-fill: white;
+    -fx-font-family: 'Arial';
+    -fx-font-size: 16px;
+}
+
+.input-button{
+    -fx-background-color: #eee;
+    -fx-text-fill: #508;
+    -fx-font-weight: bold;
+}
+
+.input-button:hover{
+    -fx-background-color: white;
+}
+
+.gridview-bill{
+    -fx-background-color: #ddf;
+}

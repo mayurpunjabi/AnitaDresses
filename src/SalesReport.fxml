@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="897.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SalesReportController">
+    <stylesheets>
+           <URL value="@/css/stylesheet.css" />
+    </stylesheets>
+   <children>
+      <Label prefHeight="140.0" prefWidth="900.0" styleClass="main-header" stylesheets="@css/stylesheet.css" text="Sales Report">
+         <font>
+            <Font name="Poor Richard" size="52.0" />
+         </font></Label>
+      <Label layoutX="290.0" layoutY="159.0" prefHeight="31.0" prefWidth="89.0" text="ALL BILLS">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TableView fx:id="allBills" layoutX="29.0" layoutY="190.0" prefHeight="350.0" prefWidth="610.0">
+        <columns>
+          <TableColumn prefWidth="138.0" text="Bill Date" />
+          <TableColumn prefWidth="330.0" text="Customer Name" />
+            <TableColumn prefWidth="140.0" text="Bill Amount" />
+        </columns>
+      </TableView>
+      <Button layoutX="673.0" layoutY="190.0" mnemonicParsing="false" onMouseClicked="#onClearDB" prefHeight="31.0" prefWidth="202.0" text="Clear Database" />
+      <Button layoutX="674.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#onClearCache" prefHeight="31.0" prefWidth="202.0" text="Clear Cache" />
+   </children>
+</AnchorPane>
